@@ -26,7 +26,7 @@ describe('SummaryComponent', () => {
 
 export class AppComponent {
   team1 = "Ravens";
-  team = "Lagaan";
+  team2 = "Lagaan";
   result = 1
 
 }

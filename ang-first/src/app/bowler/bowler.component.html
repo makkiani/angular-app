@@ -1,0 +1,13 @@
+<p>bowler works!</p>
+<div *ngIf= "true">
+bowler Info : {{bowler | json}}
+<br>
+{{bowler.isGoodBowler}}
+</div>
+<br>
+<div *ngFor = "let player of players">
+bowler name : {{player}}
+
+</div>
+
+Best Bowler is {{bestBowler}}
